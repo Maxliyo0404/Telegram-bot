@@ -2,6 +2,10 @@ import "./Cards.css";
 import React from 'react'
 
 function Cards() {
+     const sendMessage = (event) =>{
+       event.defaultPrevented();
+     }
+    
   return (
     <div className="boxs">
          <h1 className="title">Registration</h1>
