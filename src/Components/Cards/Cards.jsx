@@ -12,7 +12,11 @@ function Cards() {
        const messageContent = ` Ism : ${name}\n ${phone}`;
         axios({
             url:url;
-            method: "POST";
+            method: "POST",
+            data : {
+                chat_id: chat_id,
+                
+            }
             
         })
        
