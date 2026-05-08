@@ -4,6 +4,7 @@ import React from 'react'
 function Cards() {
   return (
     <div className="boxs">
+         <h1 className="title"></h1>
     <div className="box">
         <form className="form">
             <label className=" label"> 
@@ -17,6 +18,7 @@ function Cards() {
             <button className="btn">Submit</button>
             
         </form>
+    </div>
     </div>
   )
 }
