@@ -7,9 +7,9 @@ function Cards() {
        const token = "8660203377:AAHVRsKxi5fV8wIOJrFyr66R1tL-jj_LNmw"
        const chat_id = 647264939
        const url = `htpps://api.telegram.org/bot${token}/sendMessage`;
-       const name = document.getElementById("username");
-       const phone = document.getElementById("name")
-       const title = document.getElementById("title")
+       const name = document.getElementById("username").value
+       const phone = document.getElementById("name").value
+     const message
        
      }
     
