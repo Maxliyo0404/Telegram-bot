@@ -15,7 +15,8 @@ function Cards() {
             method: "POST",
             data : {
                 chat_id: chat_id,
-                
+                name:messageContent.
+
             }
             
         })
