@@ -3,7 +3,8 @@ import React from 'react'
 
 function Cards() {
   return (
-    <div className="cards">
+    <div className="boxs">
+    <div className="box">
         <form className="form">
             <label className=" label"> 
                 Full Name
