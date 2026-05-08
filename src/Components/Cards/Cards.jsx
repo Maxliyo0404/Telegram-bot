@@ -8,13 +8,14 @@ function Cards() {
        const chat_id = 647264939
        const url = `htpps://api.telegram.org/bot${token}/sendMessage`;
        const name = document.getElementById("username");
-       const phone = document.getElementById("name");
+       const phone = document.getElementById("name")
+       const title = document.getElementById("title")
        
      }
     
   return (
     <div className="boxs">
-         <h1 className="title">Registration</h1>
+         <h1 id="title" className="title">Registration</h1>
     <div className="box">
         <form className="form">
             <label className=" label"> 
@@ -23,7 +24,7 @@ function Cards() {
             </label>
             <label className=" label">
                 Phone Number
-                <input className="input" type="number" required placeholder="+ 998 90 123 45 67"/>
+                <input id="name" className="input" type="number" required placeholder="+ 998 90 123 45 67"/>
             </label>
             <button className="btn" type="Submit">Submit</button>
             
