@@ -11,7 +11,7 @@ function Cards() {
             </label>
             <label className=" label">
                 Telefon raqam
-                <input className="input" type="text" required placeholder="Ismingizni kiriting"/>
+                <input className="input" type="number" required placeholder="+998979609291"/>
             </label>
             
         </form>
