@@ -9,7 +9,7 @@ function Cards() {
        const url = `htpps://api.telegram.org/bot${token}/sendMessage`;
        const name = document.getElementById("username").value
        const phone = document.getElementById("name").value
-     const messageContent = ${phone}/n``
+     const messageContent = ` Ism : ${name}\n ${phone}`
        
      }
     
