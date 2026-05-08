@@ -8,6 +8,9 @@ function Cards() {
             <label className=" label"> To'liq ism
                 <input className="input" type="text" required placeholder="Ismingizni kiriting"/>
             </label>
+            <label className=" label"> To'liq ism
+                <input className="input" type="text" required placeholder="Ismingizni kiriting"/>
+            </label>
             
         </form>
     </div>
