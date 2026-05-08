@@ -5,7 +5,7 @@ function Cards() {
      const sendMessage = (event) =>{
        event.defaultPrevented();
        const token = "8660203377:AAHVRsKxi5fV8wIOJrFyr66R1tL-jj_LNmw"
-       const chat_id = 
+       const chat_id = 647264939
      }
     
   return (
