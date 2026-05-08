@@ -6,7 +6,7 @@ function Cards() {
     <div className="cards">
         <form className="form">
             <label className=" label"> To'liq ism
-                <input type="text" />
+                <input className="input" type="text" required placeholder="Ismingizni kiriting"/>
             </label>
             
         </form>
