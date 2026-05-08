@@ -1,21 +1,22 @@
 import "./Cards.css";
-import React from 'react'
+import React from 'react';
+import axios from "axios";
 
 function Cards() {
      const sendMessage = (event) =>{
-       event.defaultPrevented();
+       event.preventDefault();
        const token = "8660203377:AAHVRsKxi5fV8wIOJrFyr66R1tL-jj_LNmw"
        const chat_id = 647264939
-       const url = `htpps://api.telegram.org/bot${token}/sendMessage`;
+      const url = `https://api.telegram.org/bot${token}/sendMessage`;
        const name = document.getElementById("username").value
        const phone = document.getElementById("name").value
        const messageContent = ` Ism : ${name}\n ${phone}`;
         axios({
-            url:url;
+            url:url,
             method: "POST",
             data : {
                 chat_id: chat_id,
-                name:messageContent,
+                text:messageContent,
 
             } 
         })
