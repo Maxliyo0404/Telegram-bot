@@ -15,7 +15,7 @@ function Cards() {
                 Phone Number
                 <input className="input" type="number" required placeholder="+ 998 90 123 45 67"/>
             </label>
-            <button className="btn">Submit</button>
+            <button className="btn" type="Submit">Submit</button>
             
         </form>
     </div>
