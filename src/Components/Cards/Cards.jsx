@@ -19,7 +19,7 @@ function Cards() {
         <form className="form">
             <label className=" label"> 
                 Full Name
-                <input className="input" type="text" required placeholder="Enter your name ..."/>
+                <input id="username" className="input" type="text" required placeholder="Enter your name ..."/>
             </label>
             <label className=" label">
                 Phone Number
