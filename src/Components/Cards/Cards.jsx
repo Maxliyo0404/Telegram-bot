@@ -15,9 +15,15 @@ function Cards() {
             method: "POST",
             data : {
                 chat_id: chat_id,
-                name:messageContent.
+                name:messageContent,
 
-            }
+            } 
+        })
+        .then(() => {
+            alert("Hammasi zo'r");
+        })
+        .catch((error)=>{
+            console.log(error);
             
         })
        
@@ -27,7 +33,7 @@ function Cards() {
     <div className="boxs">
          <h1 id="title" className="title">Registration</h1>
     <div className="box">
-        <form className="form">
+        <form className="form" onSubmit={sendMessage}>
             <label className=" label"> 
                 Full Name
                 <input id="username" className="input" type="text" required placeholder="Enter your name ..."/>
